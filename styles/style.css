@@ -1,0 +1,132 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #697583;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* container */
+.space{
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    height: 70vh;
+    width: 65vw;
+    box-shadow: 4px 10px 10px #000;
+    border-radius: 10px;
+}
+.container .form{
+    border-radius: 00px 10px 10px 00px;
+}
+.container .desc{
+    border-radius: 10px 00px 00px 10px;
+}
+
+/* left section */
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    background-color: #2a314d;
+    color: #fef6fe;
+    /* border-radius: 00px 10px 10px 00px; */
+}
+.desc h2, h4, p, .pfp{
+    margin: 8px;
+    text-align: center;
+}
+.desc p{
+    padding: 15px 70px;
+}
+/* .desc h2{
+    margin-top: 30px;
+} */
+.desc h4{
+    margin-top: -5px;
+}
+.pfp{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+/* right section */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    background-color: #ffffff;
+    text-align: center;
+    /* border-radius: 10px 00px 00px 10px; */
+}
+.form h2{
+    margin-top: 60px;
+}
+.form .muted{
+    color: #c6c1bd;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.form .thick{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form #fname, #lname, #email{
+    padding: 10px;
+}
+.form #fname, #lname, #email, #date{
+    border: 1px solid #c6c1bd;
+}
+.form #fname{
+    width: 127px;
+    box-sizing: border-box;
+    margin-right: -10px;
+    padding: 10px;
+}
+.form #lname{
+    width: 127px;
+    box-sizing: border-box;
+    margin-left: -10px;
+    padding: 10px;
+
+}
+.form #email{
+    width: 260px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.form .thick{
+    margin-top: 10px;
+    margin-bottom: -8px;
+}
+.form #date{
+    width: 260px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: -10px 10px 10px 10px;
+    font-weight: 900;
+}
+.form #btn-reg{
+    background-color: #2d6bf2;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    width: 260px;
+    border: none;
+}
+.form #fname, #lname, #email, #btn-reg, .muted, .thick{
+    margin: 10px;
+}
